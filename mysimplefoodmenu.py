@@ -31,7 +31,7 @@ if option == 'Add a food':
     foodName = st.text_input("Please enter the food name")
     foodPrice = st.text_input("Please enter the food price")
     submit = st.button('submit')
-    
+
     if submit:
 
         if foodName != "" and foodPrice !="":
@@ -51,8 +51,7 @@ if option == 'Add a food':
 
 
 elif option == 'Find a food':
-        
-
+    
     if st.session_state.hasFood ==1:
 
         foodName = st.text_input("Please enter the food name that you want to search for")
@@ -65,7 +64,8 @@ elif option == 'Find a food':
 
 
     
-elif option == 'Get the sorted food list':
+
+    elif option == 'Get the sorted food list':
 
     if st.session_state.hasFood ==1:
         st.write("The list in the Food Menu:")
