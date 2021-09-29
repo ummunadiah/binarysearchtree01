@@ -6,14 +6,14 @@ if 'hasFood' not in st.session_state:
     st.session_state.hasFood = 0
 
 
-st.header("Welcome to Malaysian Mamak Food Menu")
+st.header("Welcome to ABC Simple Food Menu Demo")
 
 readme = st.checkbox("readme first")
 
 if readme:
 
     st.write("""
-        This is a simple binary search tree demo using [streamlit](https://streamlit.io/) library. It is hosted on [heroku](https://www.heroku.com/). You may get the codes via [github](https://github.com/ummunadiah/binarysearchtree01)
+        This is a simple binary search tree demo using [streamlit](https://streamlit.io/) library. It is hosted on [heroku](https://www.heroku.com/). You may get the codes via [github](https://github.com/richieyuyongpoh/binarySearchTreeDemo)
         """)
 
     st.write ("For more info, please contact:")
@@ -31,7 +31,7 @@ if option == 'Add a food':
     foodName = st.text_input("Please enter the food name")
     foodPrice = st.text_input("Please enter the food price")
     submit = st.button('submit')
-
+    
     if submit:
 
         if foodName != "" and foodPrice !="":
@@ -63,7 +63,9 @@ elif option == 'Find a food':
     else:
         st.write("Empty Food Menu.")
 
-      elif option == 'Get the sorted food list':
+
+    
+elif option == 'Get the sorted food list':
 
     if st.session_state.hasFood ==1:
         st.write("The list in the Food Menu:")
