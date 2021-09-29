@@ -13,7 +13,7 @@ readme = st.checkbox("readme first")
 if readme:
 
     st.write("""
-        This is a simple binary search tree demo using [streamlit](https://streamlit.io/) library. It is hosted on [heroku](https://www.heroku.com/). You may get the codes via [github](https://github.com/richieyuyongpoh/binarySearchTreeDemo)
+        This is a simple binary search tree demo using [streamlit](https://streamlit.io/) library. It is hosted on [heroku](https://www.heroku.com/). You may get the codes via [github](https://github.com/ummunadiah/binarysearchtree01)
         """)
 
     st.write ("For more info, please contact:")
