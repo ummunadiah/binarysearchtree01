@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run simplefoodmenudemo.py
+web: sh setup.sh && streamlit run mysimplefoodmenu.py
