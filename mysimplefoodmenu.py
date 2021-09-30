@@ -65,7 +65,7 @@ elif option == 'Find a food':
 
     
 
-    elif option == 'Get the sorted food list':
+elif option == 'Get the sorted food list':
 
     if st.session_state.hasFood ==1:
         st.write("The list in the Food Menu:")
